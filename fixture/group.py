@@ -40,4 +40,4 @@ class GroupHelper:
         self.open_group_editor()
         tree = self.group_editor.window(auto_id="uxAddressTreeView")
         root = tree.root()
-        root.children(index)
+        root.children.select(index)
